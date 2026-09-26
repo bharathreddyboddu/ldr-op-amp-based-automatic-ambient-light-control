@@ -1,6 +1,6 @@
-# 💡 LDR-Based Automatic Ambient Light Control System
+## 💡 LDR-Based Automatic Ambient Light Control System
 
-## 📌 Overview
+# 📌 Overview
 
 This project presents an automatic ambient light sensing and lighting
 control system designed for residential lighting applications.
@@ -13,7 +13,7 @@ sensor voltage against adjustable reference levels.
 Based on the comparator output, transistor switching stages control the
 lighting load through relay-based and solid-state switching.
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 - Design an automatic lighting control system for residential applications
 - Detect ambient light intensity using LDR sensors
@@ -22,7 +22,7 @@ lighting load through relay-based and solid-state switching.
 - Demonstrate sensor-based analog signal processing and switching
 - Reduce unnecessary manual operation and power consumption
 
-## ⚙️ Working Principle
+# ⚙️ Working Principle
 
 The system continuously monitors ambient light intensity using LDR
 sensors.
@@ -53,7 +53,7 @@ Relay / Load Control
       ↓
 Automatic Lighting
 ```
-🔌 Circuit Architecture
+# 🔌 Circuit Architecture
 
 The system consists of two independent sensing and control stages.
 
@@ -81,11 +81,11 @@ solid-state switching output without using a relay.
 This provides an independent light-level threshold for additional
 control or staged response
 
-🖼️ Circuit Diagram
+# 🖼️ Circuit Diagram
 
 ![Circuit Diagram](images/circuit-diagram.png)
 
-🧩 Components Used
+# 🧩 Components Used
 ```
 | Component      | Specification                         |
 | -------------- | ------------------------------------- |
@@ -102,7 +102,7 @@ control or staged response
 | Relay          | 5 V nominal, 70 Ω internal resistance |
 ```
 
-🔄 Operating Conditions
+# 🔄 Operating Conditions
 ```
 | Ambient Condition | System Output      |
 | ----------------- | ------------------ |
@@ -116,19 +116,19 @@ control or staged response
 The circuit was implemented on a breadboard and tested under different
 ambient lighting conditions.
 
-### Daylight
+# Daylight
 
 ![Daylight Hardware Implementation](images/daylight.png)
 
-### Complete Darkness
+# Complete Darkness
 
 ![Complete Darkness Hardware Implementation](images/complete-darkness.png)
 
-### Optimal Darkness
+# Optimal Darkness
 
 ![Optimal Darkness Hardware Implementation](images/optimal-darkness.png)
 
-📊 System Workflow|
+## 📊 System Workflow|
 ```
 Sense Ambient Light
         ↓
@@ -145,7 +145,7 @@ Control Relay / Auxiliary Output
 Switch Lighting Load
 ```
 
-📁 Repository Structure
+## 📁 Repository Structure
 ```
 ldr-op-amp-based-automatic-ambient-light-control/
 │
@@ -166,7 +166,7 @@ The complete project report is available here:
 
 [View Project Report](report/project-report.pdf)
 
-🏁 Conclusion
+## 🏁 Conclusion
 
 The project demonstrates an automatic lighting control system based on
 ambient light sensing.
